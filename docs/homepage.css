@@ -1,0 +1,70 @@
+html {
+font-size: 10px;
+}
+
+body {
+margin: 2.6rem;
+font-family: verdana, tahoma, "Trebuchet MS", helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+font-family: georgia, serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1.title {
+  display:none;
+}
+
+h2 {
+color:#2e501f;
+margin-top: 0;
+}
+
+.gotoplay a {
+text-decoration: none;
+color: rgb(14, 134, 91);
+}
+
+img {
+  width:100%;
+}
+
+p {
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 18px;
+  border: 1px solid green;
+  padding:1rem;
+  text-align: left;
+}
+
+.first {
+  background-color: #2e501f;
+  border:0;
+  color:white;
+  font-size: 1.8rem;
+  line-height: 1.4;
+
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+.everything {
+margin:0 auto;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+max-width: 900px;
+}
+
+.cover, .intro {
+  margin: 0 30px;
+  flex: 2 1 25rem;
+}
